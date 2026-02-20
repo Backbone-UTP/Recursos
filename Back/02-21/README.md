@@ -1,64 +1,64 @@
-# 📚 Guia Previa: Sesion 01 - 2026 I
+# 📚 Guía Previa: Sesión 01 - 2026 I
 
-## Introduccion a Backend con Node.js y APIs REST
+## Introducción a Backend con Node.js y APIs REST
 
 ---
 
-### 📖 Informacion del Documento
+### 📖 Información del Documento
 
 - **Nombre**: Primeros pasos en desarrollo backend
-- **Autor**: Equipo docente Backbone
-- **Formato**: Guia de lectura y video previo
-- **Pagina**: Back / 02-21
+- **Autor**: Jhon Gaviria
+- **Formato**: Guía de lectura y vídeos introductorios
+- **Página**: Back / 02-21
 - **Fecha**: Febrero 2026
-- **Notas**: Este material se debe revisar antes de la clase para aprovechar mejor la sesion practica.
+- **Notas**: Este material se debe revisar antes de la clase para aprovechar mejor la sesión práctica.
 
 ---
 
-## 👋 ¿Por que esta lectura previa?
+## 👋 ¿Por qué esta lectura previa?
 
-Hola 👋 Antes de nuestra primera sesion de backend, queremos que llegues con una base clara. Esta guia te ayudara a entender el contexto de Node.js, el rol del backend en una aplicacion real y el vocabulario minimo para construir APIs.
+Hola 🦒 Antes de nuestra primera sesión de backend, queremos que llegues con una base clara. Esta guía te ayudara a entender el contexto de Node.js, el rol del backend en una aplicación real y el vocabulario mínimo para construir APIs.
 
-**No necesitas dominar todo antes de clase.** El objetivo es que llegues con una vision general para que en sesion podamos enfocarnos en practica, dudas reales y buenas decisiones de implementacion.
+**No necesitas dominar todo antes de clase.** El objetivo es que llegues con una visión general para que en sesión podamos enfocarnos en práctica, dudas reales y buenas decisiones de implementación.
 
 ---
 
-## 📋 REPASO - Conceptos que ya deberias ubicar
+## 📋 REPASO - Conceptos que ya deberías ubicar
 
 ### 1. Frontend vs Backend
 
-**¿Por que es importante?**
-Si no diferencias bien estos roles, es dificil tomar decisiones de arquitectura.
+**¿Por qué es importante?**
+Si no diferencias bien estos roles, es difícil tomar decisiones de arquitectura.
 
-**Que deberias saber:**
+**Qué deberías saber:**
 
 - Frontend: lo que ve y usa el usuario (UI, formularios, vistas)
-- Backend: logica de negocio, seguridad, datos, autenticacion y reglas
+- Backend: lógica de negocio, seguridad, datos, autenticación y reglas
 - El frontend consume endpoints del backend mediante HTTP
-- Un backend puede atender web, movil y otros clientes al mismo tiempo
+- Un backend puede atender web, móvil y otros clientes al mismo tiempo
 
 ---
 
 ### 2. JavaScript fuera del navegador
 
-**¿Por que importa?**
+**¿Por qué importa?**
 Node.js te permite usar JavaScript del lado del servidor.
 
-**Que deberias saber:**
+**Qué deberías saber:**
 
 - Node.js es un runtime, no un framework
 - Puedes ejecutar archivos `.js` desde terminal
-- El backend suele manejar operaciones asincronas (I/O, DB, APIs)
+- El backend suele manejar operaciones asíncronas (I/O, DB, APIs)
 - Comprender `async/await` te ahorra muchos errores
 
 ---
 
 ### 3. NPM y package.json
 
-**¿Por que lo necesitas?**
+**¿Por qué lo necesitas?**
 NPM es el gestor de paquetes y scripts del ecosistema Node.
 
-**Que deberias saber:**
+**Qué deberías saber:**
 
 - `npm init -y` crea el `package.json`
 - `npm install` agrega dependencias
@@ -67,40 +67,40 @@ NPM es el gestor de paquetes y scripts del ecosistema Node.
 
 ---
 
-## 🚀 CONCEPTOS CLAVE de esta primera sesion
+## 🚀 CONCEPTOS CLAVE de esta primera sesión
 
-### 1. ¿Que es Node.js en terminos practicos?
+### 1. ¿Qué es Node.js en términos prácticos?
 
-Node.js permite construir servicios backend en JavaScript con alto rendimiento para tareas de I/O. En clase veras por que es tan usado en APIs y microservicios.
+Node.js permite construir servicios backend en JavaScript con alto rendimiento para tareas de I/O. En clase veras por qué es tan usado en APIs y microservicios.
 
-### 2. ¿Que es una API REST?
+### 2. ¿Qué es una API REST?
 
-Una API REST es un contrato para intercambiar datos usando HTTP. Aprenderemos la idea central de recursos y metodos:
+Una API REST es un contrato para intercambiar datos usando HTTP. Aprenderemos la idea central de recursos y métodos:
 
 - `GET`: leer datos
 - `POST`: crear datos
 - `PUT/PATCH`: actualizar datos
 - `DELETE`: eliminar datos
 
-### 3. ¿Que es un endpoint?
+### 3. ¿Qué es un endpoint?
 
 Un endpoint es una ruta del backend que responde a una solicitud. Ejemplo:
 
 - `GET /saludo`
 - Respuesta: `{ "message": "Hola backend" }`
 
-### 4. Flujo minimo de un proyecto backend
+### 4. Flujo mínimo de un proyecto backend
 
-En sesion construiremos una base simple:
+En sesión construiremos una base simple:
 
 1. Crear proyecto Node
 2. Definir scripts en `package.json`
-3. Ejecutar codigo desde terminal
+3. Ejecutar código desde terminal
 4. Preparar estructura para levantar una API
 
 ---
 
-## 🎥 Videos para ver antes de clase
+## 🎥 Vídeos para ver antes de clase
 
 ### Obligatorios (ver completos)
 
@@ -112,65 +112,66 @@ En sesion construiremos una base simple:
 
 ### Recomendados (opcionales)
 
-Si quieres llegar mas fuerte, revisa ademas 1 recurso corto de cada tema:
+Si quieres llegar más fuerte, revisa ademas 1 recurso corto de cada tema:
 
-- **HTTP para principiantes**: metodos, headers, status codes
+- **HTTP para principiantes**: métodos, headers, status codes
 - **REST API para principiantes**: recursos, rutas y respuestas JSON
 
-Busquedas sugeridas en YouTube:
+Búsquedas sugeridas en YouTube:
 
 - `HTTP methods GET POST PUT DELETE explicado`
+- `cómo funciona el protocolo HTTP`
 - `REST API para principiantes`
 - `Node.js Express API desde cero`
 
 ---
 
-## ⏱️ Que haremos en la sesion
+## ⏱️ Qué haremos en la sesión
 
 - **Bloque 1**: contexto backend + Node.js sin humo
 - **Bloque 2**: flujo de proyecto con NPM y estructura inicial
-- **Bloque 3**: introduccion a endpoints y contrato REST
+- **Bloque 3**: introducción a endpoints y contrato REST
 - **Bloque 4**: cierre con dudas y siguiente paso (Express)
 
 ---
 
-## 💡 Preparacion recomendada antes de entrar
+## 💡 Preparación recomendada antes de entrar
 
-✅ **Checklist rapido:**
+✅ **Checklist rópido:**
 
 - Node.js LTS instalado
 - Editor listo (VS Code recomendado)
 - Terminal funcionando
-- Videos obligatorios vistos
-- Minimo 3 dudas anotadas para discutir en clase
+- Vídeos obligatorios vistos
+- Mínimo 3 dudas anotadas para discutir en clase
 
 ❗ **Importante:**
 
 - No te frustres si no entiendes todo a la primera
-- Queremos que llegues con contexto, no con perfeccion
+- Queremos que llegues con contexto, no que te vuelvas experto de la noche a la mañana
 
 ---
 
-## 🧪 Mini practica opcional (15 minutos)
+## 🧪 Mini práctica opcional (15 minutos)
 
-Si quieres calentar antes de la sesion:
+Si quieres calentar antes de la sesión:
 
-1. Crea carpeta `backend-intro`
-2. Ejecuta `npm init -y`
-3. Crea `index.js` con:
+1. Crea una carpeta `backend-intro`
+2. Ejecuta en la carpeta `npm init -y`
+3. Crea un archivo `index.js` con:
 
 ```js
 console.log("Backend listo para iniciar");
 ```
 
-4. Ejecuta `node index.js`
+4. Ejecuta en consola `node index.js`
 
-Si esto te funciona, llegas con el entorno listo para avanzar mas rapido en clase.
+Si esto te funciona, llegas con el entorno listo para avanzar mas rápido en clase.
 
 ---
 
-## 🚀 Despues de esta sesion
+## 🚀 Después de esta sesión
 
-El siguiente paso sera construir un servidor basico con Express y crear el primer endpoint funcional para consumirlo desde cliente.
+El siguiente paso será construir un servidor básico con Express y crear el primer endpoint funcional para consumirlo desde cliente.
 
 **Nos vemos en clase. Llega con curiosidad y preguntas.**
