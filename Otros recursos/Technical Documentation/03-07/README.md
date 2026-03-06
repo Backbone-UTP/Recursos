@@ -202,7 +202,7 @@ Generalmente incluye:
 
 #### Aprende más:
 
-- 📚 [Cómo escribir un readme increíble en tu github](https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github)
+- 📚 [Cómo escribir un readme increíble en tu github](https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github) [REQUERIDO]
 
 ### 2. OpenAPI y Swagger
 
@@ -315,3 +315,4 @@ Como siguiente paso, podrás practicar:
 - agregando ejemplos de uso a funciones o librerías
 
 La mejor forma de aprender documentación es **leyéndola y escribiéndola en proyectos reales**.
+
