@@ -242,7 +242,7 @@ paths:
 ```
 #### Aprende más:
 
-- 📚 [Que es OpenAPI y Swagger](https://www.youtube.com/watch?v=39Tt1IkLiQQ) [REQUERIDO]
+- 📺 [Que es OpenAPI y Swagger](https://www.youtube.com/watch?v=39Tt1IkLiQQ) [REQUERIDO]
 
 ### 3. Code as documentation
 
@@ -315,4 +315,5 @@ Como siguiente paso, podrás practicar:
 - agregando ejemplos de uso a funciones o librerías
 
 La mejor forma de aprender documentación es **leyéndola y escribiéndola en proyectos reales**.
+
 
