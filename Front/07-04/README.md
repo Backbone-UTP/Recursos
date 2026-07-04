@@ -194,8 +194,8 @@ Ejemplos dentro de Backbone Judge:
 Autenticacion y autorizacion estan relacionadas, pero no son lo mismo.
 
 ```text
-Autenticacion: ¿Quien sos?
-Autorizacion:  ¿Que podes hacer?
+Autenticacion: ¿Quien eres?
+Autorizacion:  ¿Que puedes hacer?
 ```
 
 ---
@@ -561,7 +561,7 @@ const DEMO_SESSION_KEY = "backbone-demo-session";
 
 const DEMO_USER: AuthUser = {
   id: "student-001",
-  email: "student@backbone.dev",
+  email: "student@backboneutp.com",
   displayName: "Backbone Student",
   roles: ["student"],
 };
@@ -606,7 +606,7 @@ export class FakeAuthRepository extends AuthRepository {
 Credenciales de demostracion:
 
 ```text
-Email:    student@backbone.dev
+Email:    student@backboneutp.com
 Password: backbone
 ```
 
@@ -1314,7 +1314,7 @@ Resultado esperado:
 Ingresar:
 
 ```text
-Email: student@backbone.dev
+Email: student@backboneutp.com
 Password: incorrecta
 ```
 
@@ -1332,7 +1332,7 @@ Resultado esperado:
 Ingresar:
 
 ```text
-Email: student@backbone.dev
+Email: student@backboneutp.com
 Password: backbone
 ```
 
