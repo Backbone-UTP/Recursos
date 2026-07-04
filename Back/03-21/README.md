@@ -9,7 +9,7 @@
 - **Nombre**: Entorno backend con contenedores y conexion a base de datos
 - **Autor**: Jhon Gaviria
 - **Formato**: Guia de lectura y video previo
-- **Pagina**: Back / 03-14
+- **Pagina**: Back / 03-21
 - **Fecha**: Marzo 2026
 - **Notas**: Esta guia se revisa antes de clase para llegar con contexto tecnico y entorno listo.
 
