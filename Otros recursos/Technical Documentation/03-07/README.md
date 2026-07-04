@@ -1,4 +1,4 @@
-# 📚 Guía Previa: Sesión 03 - 2026 I
+# 📚 Guía Previa: Sesión 01 - 2026 I
 
 ## Documentación técnica para Desarrolladores
 
