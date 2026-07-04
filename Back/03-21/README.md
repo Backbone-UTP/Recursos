@@ -7,7 +7,7 @@
 ### Informacion del documento
 
 - **Nombre**: Entorno backend con contenedores y conexion a base de datos
-- **Autor**: Equipo docente Backbone
+- **Autor**: Jhon Gaviria
 - **Formato**: Guia de lectura y video previo
 - **Pagina**: Back / 03-14
 - **Fecha**: Marzo 2026
